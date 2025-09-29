@@ -1,6 +1,6 @@
 # 🏗️ Construction Risk App
 
-🎥 **Demo video (1m):** [Watch on Loom]([https://www.loom.com/share/your-demo-link-here](https://www.loom.com/share/9d751034497d470d854435f5c399bf51?sid=de96b48b-841e-4cf3-91c3-75faec959578))  
+🎥 **Demo video (1m):** [Watch on Loom](https://www.loom.com/share/9d751034497d470d854435f5c399bf51?sid=de96b48b-841e-4cf3-91c3-75faec959578))  
 📂 **Repository:** This page  
 
 ---
