@@ -53,7 +53,7 @@ With **Claude**, the app also provides a concise **AI-generated summary** with s
 
 Clone and run locally:  
 ```bash
-git clone https://github.com/yourusername/construction-risk-app.git
+git clone https://github.com/calebten/construction-risk-app.git
 cd construction-risk-app
 npm install
 npm start
