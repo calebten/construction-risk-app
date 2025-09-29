@@ -49,25 +49,22 @@ With **Claude**, the app also provides a concise **AI-generated summary** with s
 
 ---
 
-## 🛠️ Setup & Installation
+## 🛠️ Setup, Installation & Environment
 
-Clone and run locally:  
+Clone, install dependencies, and set environment variables:
+
 ```bash
+# Clone repo
 git clone https://github.com/calebten/construction-risk-app.git
 cd construction-risk-app
 npm install
+
+# Start server
 npm start
 
----
+# Create .env file (copy from .env.example)
+# Fill in your own values below:
 
-## 🔑 Environment Setup
-
-This app requires environment variables. A sample file is included as `.env.example`.
-
-1. Copy `.env.example` → `.env`
-2. Fill in your own values:
-
-```env
 # Claude API
 ANTHROPIC_API_KEY=your-claude-api-key
 
@@ -81,4 +78,3 @@ GOOGLE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\
 
 # Optional: Weather provider API key
 WEATHER_API_KEY=your-weather-api-key
-
