@@ -6,11 +6,11 @@
 ---
 
 ## 🚀 Overview
-The **Construction Risk App** helps project teams anticipate and mitigate weather-related risks on construction sites.  
+Construction risk assessment app — pulls weather data, generates AI analysis with **Claude**, posts to Slack, and logs to Google Sheets.  
 
 It pulls **live weather data**, evaluates it against risk thresholds (rain, humidity, wind, temperature), and generates a **risk assessment**. Results are displayed in a clean web interface, with optional notifications via **Slack** and **Google Sheets logging** for project tracking.  
 
-With **OpenAI integration**, the app also provides a concise **AI-generated summary** with suggested mitigations.  
+With **Claude**, the app also provides a concise **AI-generated summary** with suggested mitigations.  
 
 ---
 
@@ -25,15 +25,15 @@ With **OpenAI integration**, the app also provides a concise **AI-generated summ
 - Helmet, CORS, Morgan, Dotenv  
 - Google APIs client library  
 - Slack SDK  
-- OpenAI SDK  
+- **Anthropic Claude SDK**  
 
 ---
 
 ## 🔌 APIs & Integrations
 
 - **[Open-Meteo API](https://open-meteo.com/)** – Free weather API, no key required (temperature, humidity, wind, precipitation).  
-- **[OpenAI API](https://platform.openai.com/)** – Generates natural-language analysis of risk factors and mitigation steps.  
-- **[Slack Web API](https://api.slack.com/)** – Posts alerts directly into a project Slack channel.  
+- **[Claude (Anthropic API)](https://www.anthropic.com/)** – Generates natural-language analysis of risk factors and mitigation steps.  
+- **[Slack Incoming Webhooks](https://api.slack.com/messaging/webhooks)** – Posts alerts directly into a project Slack channel.  
 - **[Google Sheets API](https://developers.google.com/sheets/api/)** – Logs risk assessments for tracking and reporting.  
 
 ---
@@ -41,7 +41,7 @@ With **OpenAI integration**, the app also provides a concise **AI-generated summ
 ## ⚡ Features
 
 - ✅ Risk scoring engine using configurable weather thresholds.  
-- 🧠 AI-powered narrative analysis of site conditions.  
+- 🧠 AI-powered narrative analysis of site conditions (Claude).  
 - 🔔 Slack notifications to keep teams informed.  
 - 📊 Google Sheets logging for ongoing risk tracking.  
 - 🌐 Simple browser interface with real-time updates.  
