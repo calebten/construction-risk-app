@@ -58,8 +58,9 @@ cd construction-risk-app
 npm install
 npm start
 
+---
 
-### 🔑 Environment Setup
+## 🔑 Environment Setup
 
 This app requires environment variables. A sample file is included as `.env.example`.
 
