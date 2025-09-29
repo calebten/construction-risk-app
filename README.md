@@ -57,3 +57,27 @@ git clone https://github.com/calebten/construction-risk-app.git
 cd construction-risk-app
 npm install
 npm start
+
+
+### 🔑 Environment Setup
+
+This app requires environment variables. A sample file is included as `.env.example`.
+
+1. Copy `.env.example` → `.env`
+2. Fill in your own values:
+
+```env
+# Claude API
+ANTHROPIC_API_KEY=your-claude-api-key
+
+# Slack
+SLACK_WEBHOOK_URL=https://hooks.slack.com/services/...
+
+# Google Sheets
+GOOGLE_SHEETS_ID=your-sheet-id
+GOOGLE_CLIENT_EMAIL=service-account@project.iam.gserviceaccount.com
+GOOGLE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n"
+
+# Optional: Weather provider API key
+WEATHER_API_KEY=your-weather-api-key
+
